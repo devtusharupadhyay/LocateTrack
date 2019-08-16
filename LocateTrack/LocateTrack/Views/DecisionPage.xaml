@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LocateTrack.Views.DecisionPage"
+             Visual="Material">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid VerticalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Grid VerticalOptions="FillAndExpand" RowSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout x:Name="PassengerLayout" Grid.Row="0"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Label Text="Passenger"  TextColor="Black" FontSize="Large" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center">
+                            </Label>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Passenger" Tapped="Passenger_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <StackLayout x:Name="PilotLayout" Grid.Row="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Label Text="Pilot"  TextColor="White" HorizontalTextAlignment="End" HorizontalOptions="End" FontSize="Large" VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand">
+                            </Label>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Pilot" Tapped="Pilot_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

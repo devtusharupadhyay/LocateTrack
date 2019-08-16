@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\XAMARIN\\LocateTrack\\LocateTrack\\LocateTrack.MobileAppService\\LocateTrack.MobileAppService.csproj": {}
+  },
+  "projects": {
+    "F:\\XAMARIN\\LocateTrack\\LocateTrack\\LocateTrack.MobileAppService\\LocateTrack.MobileAppService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\XAMARIN\\LocateTrack\\LocateTrack\\LocateTrack.MobileAppService\\LocateTrack.MobileAppService.csproj",
+        "projectName": "LocateTrack.MobileAppService",
+        "projectPath": "F:\\XAMARIN\\LocateTrack\\LocateTrack\\LocateTrack.MobileAppService\\LocateTrack.MobileAppService.csproj",
+        "packagesPath": "C:\\Users\\progr\\.nuget\\packages\\",
+        "outputPath": "F:\\XAMARIN\\LocateTrack\\LocateTrack\\LocateTrack.MobileAppService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\progr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
